@@ -21,7 +21,7 @@ p.dotted {
   height: 750px;
   width: 750px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
@@ -35,55 +35,68 @@ p.dotted {
 }
 
 .a {
-	grid-column-start: 1;
-	grid-column-end: span 1;
-	grid-row-start: 1;
-	grid-row-end: 1;
-	padding:2%
-}
-
-.b {
 	grid-column-start: 2;
 	grid-column-end: span 1;
 	grid-row-start: 1;
 	grid-row-end: 1;
-	Padding:2%;
+	padding:2%;
+	text-align:center;
 }
 
-.c {  
+.b {
 	grid-column-start: 3;
 	grid-column-end: span 1;
 	grid-row-start: 1;
 	grid-row-end: 1;
+	Padding:2%;
+	text-align:center;
 }
 
-.d {
-  grid-column-start: 4;
-  grid-column-end: span 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
+.c {  
+	grid-column-start: 4;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: 1;
+	text-align:center;
 }
 
-.e {
+
+
+.g {
   grid-column-start: 5;
   grid-column-end: span 1;
   grid-row-start: 1;
   grid-row-end: 1;
+  text-align:center;
 }
 
-.f {
-  grid-column-start: 6;
-  grid-column-end: span 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
+.grid-container2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
 }
 
+.wombimg {
+	grid-column: 1;
+	grid-row: span 50;
+	border: 5px solid #ffcce6;
+}
 
-.g {
-  grid-column-start: 7;
-  grid-column-end: span 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
+.wombtext {
+	grid-column: 2;
+	grid-row: span 50;
+	border: 5px solid #ffcce6;
+}
+
+.babyimage {
+	width: 100%;
+	height: 100%;
+}
+
+.babytext {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Gamja Flower', cursive;
 }
 
 .p {
@@ -91,7 +104,32 @@ p.dotted {
 	padding-right:3%;
 }
 
+.hood {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+}
 
+img.epic {
+	width: 100%;
+	height: 100%;
+}
+
+.griditem1{
+	border: 5px solid #ffcce6;
+	grid-column: 1;
+	grid-row: span 1;
+}
+
+.griditem2{
+	border: 5px solid #ffcce6;
+	grid-column:2;
+}
+
+
+.booboo{
+	font-size:20px;
+}
 
 
 
